@@ -19,9 +19,36 @@
   font-size: 7rem;
   line-height: 76px;
   text-transform: capitalize;
-  background: linear-gradient(90deg, #a734bd 0%, #ff006a 100%);
+  background: var(--color-gradient);
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.heading-2 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5.6rem;
+  line-height: 64px;
+  text-align: center;
+
+  /* Gradients/1 */
+
+  background: var(--color-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.heading-3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 44px;
+  text-transform: capitalize;
+  color: var(--color-light);
 }
 
 .paragraph {
