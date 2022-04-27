@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/clash-display");
+:root {
+  --color-bg: #000;
+  --color-primary-1: #a734bd;
+  --color-primary-2: #ff006a;
+
+  --color-gradient: linear-gradient(
+    90deg,
+    var(--color-primary-1) 0%,
+    var(--color-primary-2) 100%
+  );
+
+  --color-light: #fff;
+  --color-grey-light-1: #dbdbdb;
+
+  --color-dark: #010101;
+  --color-grey-dark-1: #342134;
+
+  // --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  // --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+
+  // --line: 1px solid var(--color-grey-light-2);
+}
+
+// $bp-largest: 75em;     // 1200px
+// $bp-large: 68.75em;    // 1100px
+// $bp-medium: 56.25em;   // 900px
+// $bp-small: 37.5em;     // 600px
+// $bp-smallest: 31.25em; // 500px
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  // This defines what 1rem is
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--color-grey-light-1);
+  line-height: 1.6;
+  background-color: var(--color-dark);
+}

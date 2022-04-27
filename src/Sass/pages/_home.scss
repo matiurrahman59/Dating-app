@@ -1,0 +1,37 @@
+.banner__area {
+  padding-top: 5.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10.5rem;
+
+  &-img {
+    position: relative;
+    &:after {
+      content: url(../../Assets/Dark-Gradient-1.png);
+      position: absolute;
+      width: 752px;
+      height: 752px;
+      left: -488px;
+      top: -92px;
+      filter: blur(154.429px);
+      z-index: -1;
+    }
+  }
+
+  &-text {
+    width: 40.5rem;
+
+    .paragraph {
+      font-size: 1.6rem;
+      color: var(--color-grey-light-1);
+      line-height: 2.8rem;
+      width: 40.5rem;
+    }
+
+    .download-links {
+      display: flex;
+      gap: 2.4rem;
+    }
+  }
+}
