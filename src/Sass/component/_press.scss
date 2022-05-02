@@ -1,0 +1,35 @@
+.press {
+  margin-top: 19.3rem;
+
+  .download-links {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .heading-2 {
+    margin-top: 20rem;
+  }
+
+  .sponsor-icon {
+    margin-top: 3.6rem;
+
+    background: rgba(52, 33, 52, 0.5);
+    backdrop-filter: blur(26px);
+    border-radius: 36px;
+
+    &-top {
+      padding: 5.6rem 10.3rem 0 10.5rem;
+
+      @include f-center;
+      gap: 8.5rem;
+    }
+
+    &-bottom {
+      margin-top: 3.2rem;
+      padding: 3.2rem 3.6rem 0 6.7rem;
+      @include f-center;
+      gap: 7.3rem;
+    }
+  }
+}

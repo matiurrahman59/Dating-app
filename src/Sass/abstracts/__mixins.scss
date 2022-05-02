@@ -1,3 +1,9 @@
+@mixin f-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 // @mixin absCenter {
 //   position: absolute;
 //   top: 50%;

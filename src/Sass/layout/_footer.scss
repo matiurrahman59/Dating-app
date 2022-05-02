@@ -1,0 +1,27 @@
+.footer {
+  background: rgba(52, 33, 52, 0.5);
+  margin-top: 20rem;
+
+  &-content {
+    margin-top: 3.6rem;
+    display: flex;
+    justify-content: space-between;
+
+    &-bottom {
+      margin-top: 6.4rem;
+      padding-bottom: 6.4rem;
+      display: flex;
+      justify-content: space-between;
+
+      .privacy {
+        display: flex;
+        gap: 3.6rem;
+      }
+    }
+  }
+
+  &-icon {
+    display: flex;
+    gap: 2.4rem;
+  }
+}
